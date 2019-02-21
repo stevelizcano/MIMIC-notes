@@ -9,6 +9,10 @@ import importlib
 from functools import reduce
 
 """
+Initally created by Stephen Lizcano. @stevelizcano on GitHub. 
+
+MIT License.
+
 This program loads the MIMICIII NOTEEVENTS and DIAGNOSES_ICD .csv files, extracts 'Discharge Summaries' from the Notes,
 and matches them with the HADM_ID, or Hospital Admission ID, of the patients.
 
